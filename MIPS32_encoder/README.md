@@ -1,8 +1,10 @@
-# MIPS-32bit instruction encoder
-This repository is meant to provide a C implementation of a 32-bit assembly instruction encoder for MIPS processors.
+# MIPS instruction encoder
+
+This is a C implementation of a 32-bit assembly instruction encoder for MIPS processors.
 The program is indeed able to encode in machine code a set of assembly instructions reading the input data from the "input.txt" file and printing the result into the "output.txt" file.
 
 ## MIPS instructions
+
 The MIPS instruction subset is described in the following table:
 
 | Instruction | Syntax             | Operation                      | Description                      |
@@ -27,20 +29,27 @@ The MIPS instruction subset is described in the following table:
 | bne         | bne \$R1 \$R2 i    | if (\$R1 != \$R2) pc += i << 2 | Branch not equal to              |
 
 ## Compiling and running the program
+
 The command to compile the C source file with GCC is:
+
 ```console
 $ gcc -Wall -o <output_binary> MIPS32_encoder.c
 ```
+
 The compiled executable file will be saved as `<output_binary>` (e.g., MIPS32_encoder) in your current working directory, then you can run the program as follows:
+
 ```console
 $ MIPS32_encoder <input_file.ext> <output_file.ext>
 ```
+
 where the `<input_file.ext>` contains a sequence of assembly instructions and the `<output_file.ext>` contains the encoded machine code.
 
 ## Example
+
 Below you can find an example of an input file containing a few assembly instructions and the resulting conversion in the output file.
 
 `input.txt`
+
 ```nasm
 addi $R1 $R0 30
 sw $R1 0 $R0
@@ -48,6 +57,7 @@ lw $R3 0 $R0
 ```
 
 `output.txt`
+
 ```
 -- auto generated
 -- addi $R1,$R0,30
@@ -70,4 +80,5 @@ lw $R3 0 $R0
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/david-palma//MIPS-32bit/LICENSE) file for details.
