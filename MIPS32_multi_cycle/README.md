@@ -6,6 +6,6 @@ In particular, the present version of the processor includes the control unit an
 <p align="center"><img src="./MIPS32_multi-cycle_diagram.png" width="700px"></img><p>
 
 The multi-cycle implementation allows a functional unit to be used more than once in a instruction, so that the number of functional units can be reduced.
-This is a better implementation of the single-cycle version (see [32-bit single-cycle MIPS processor](https://github.com/david-palma/MIPS-32bit/MIPS32_single_cycle)).
+This is a better implementation of the single-cycle version (see [32-bit single-cycle MIPS processor](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_single_cycle)).
 
-**NOTE**: it is possible to test the architecture defining your own program instructions using the [32-bit assembly instruction encoder for MIPS processors](https://github.com/david-palma/MIPS-32bit/MIPS32_encoder).
+**NOTE**: it is possible to test the architecture defining your own program instructions using the [32-bit assembly instruction encoder for MIPS processors](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_encoder).
