@@ -3,8 +3,7 @@
 This repository is meant to provide:
 
 * [a 32-bit implementation of a single-cycle MIPS processor in VHDL](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_single_cycle);
-* [a 32-bit implementation of a multi-cycle MIPS processor in VHDL](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_multi_cycle);
-* [a C implementation of a 32-bit assembly instruction encoder for MIPS processors](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_encoder).
+* [a 32-bit implementation of a multi-cycle MIPS processor in VHDL](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_multi_cycle).
 
 ## Executable instructions
 
@@ -19,7 +18,7 @@ Both the implementations are able to execute the following subset of the origina
 
 ### Note
 
-The memory modules in both the implementations contain some initial values representing a test program, though it is possible to define your own program instructions (see the [MIPS32 instruction encoder](https://github.com/david-palma/MIPS-32bit/tree/master/MIPS32_encoder)).
+The memory modules in both the implementations contain some initial values representing a test program, though it is possible to define your own program instructions (see the [MIPS32 instruction encoder](https://github.com/david-palma/MIPS-32bit_encoder)).
 
 ## License
 
