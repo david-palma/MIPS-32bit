@@ -78,7 +78,3 @@ lw $R3 0 $R0
 10 => "00000000",
 11 => "00000000",
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/david-palma//MIPS-32bit/LICENSE) file for details.
